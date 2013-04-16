@@ -1,11 +1,13 @@
 /*screen.css*/
-
+.input-date,
 .select-menu{
 	background-color: peru;
 	position: relative;
 	width: 100px;
 	margin: 1em auto;
+	overflow: hidden;
 }
+.input-date label,
 .select-menu label{
 	background-color: cornflowerblue;
 	display: block;
@@ -25,4 +27,8 @@
 	border: 10px solid black;
 	z-index: 2;
 
+}
+.input-date label{
+	background-color: lightgreen;
+	line-height: 1.5;
 }
